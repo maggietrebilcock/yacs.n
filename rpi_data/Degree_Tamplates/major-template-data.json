@@ -3787,11 +3787,11 @@
     },
     {
         "year": 2024,
-        "major": " ",
-        "school": " ",
-        "credits": 128,
+        "major": "Sustainability Studies",
+        "school": "HASS",
+        "credits": -1,
         "focus-track": false,
-        "link": " ",
+        "link": "https://catalog.rpi.edu/preview_program.php?catoid=30&poid=8836&returnto=786",
         "notes": [
         
         ],
@@ -3804,19 +3804,65 @@
     },
     {
         "year": 2024,
-        "major": " ",
-        "school": " ",
-        "credits": 128,
+        "major": "Science, Technology, and Society",
+        "school": "HASS",
+        "credits": -1,
         "focus-track": false,
-        "link": " ",
-        "notes": [
+        "link": "https://catalog.rpi.edu/preview_program.php?catoid=30&poid=8826&returnto=786",
         
+        "notes": [
+            "The 16-credit Complementary Area of Study (CAS) provides STS majors a depth of understanding of an external field that will inform their STS research and coursework. The CAS courses should come from a single department (not STS). At least 8 credits must be at the 4000 level."
         ],
         "required": [
-            
+            "STSO-1100",
+            "STSO-2100",
+            "STSO-4300",
+            "STSO-4980",
+            "STSO-4990",
+            "ADMN-1030",
+            "ILEA-4400"
         ],
         "pick-multiple": {
-           
+            "Calculus 1": {
+                "pick": 1,
+                "classes": [
+                    "MATH-1010",
+                    "MATH-1500"
+                ]
+            },
+            "Calculus 2": {
+                "pick": 1,
+                "classes": [
+                    "MATH-1020",
+                    "MATH-1520"
+                ]
+            },
+            "Intermediate STS courses": {
+                "pick": 1,
+                "classes": [
+                    "STSO-2"
+                ]
+            },
+            "Advanced STS courses": {
+                "pick": 2,
+                "classes": [
+                    "STSO-4"
+                ]
+            },
+            "Science Options": {
+                "pick": 4,
+                "classes": [
+                    "ASTR-1",
+                    "BCBP-1",
+                    "BIOL-1",
+                    "CHEM-1",
+                    "ERTH-1",
+                    "IENV-1",
+                    "MATH-1",
+                    "PHYS-1",
+                    "CSCI-1"
+                ]
+            }
         }
     }
 
